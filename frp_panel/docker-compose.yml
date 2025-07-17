@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  # 后端服务
+  backend:
+    build: ./frp_panel
+    container_name: frp-panel-backend
+    restart: always
+    environment:
+      - SECRET_KEY=change_this_to_a_secure_random_string
+      - JWT_SECRET_KEY=change_this_to_another_secure_random_string
+      - MAIL_SERVER=smtp.example.com
+      - MAIL_PORT=587
+      - MAIL_USERNAME=your_email@example.com
+      - MAIL_PASSWORD=your_email_password
+      - MAIL_USE_TLS=True
+    volumes:
+      - ./data:/app/src/database
+    networks:
+      - frp-network
+
+  # 前端服务
+  frontend:
+    build: ./frp-panel-frontend
+    container_name: frp-panel-frontend
+    restart: always
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - frp-network
+
+networks:
+  frp-network:
+    driver: bridge
+
