@@ -32,17 +32,22 @@ FRP内网穿透管理面板是一个基于Flask和React的Web应用，用于管�
 - Day.js (日期处理)
 
 ## 安装指南
-
+---
+###详细安装指南
+请参阅详细安装步骤[/INSTALL_GUIDE.md]
+---
 ### 系统要求
 - Python 3.8+
 - Node.js 16+
 - frp 0.37.0+
 
+
+
 ### 后端安装
 
 1. 克隆仓库
 ```bash
-git clone https://github.com/yourusername/frp-panel.git
+git clone https://github.com/XIMOYA/HyperZoneFRP_Panel/frp-panel.git
 cd frp-panel
 ```
 
