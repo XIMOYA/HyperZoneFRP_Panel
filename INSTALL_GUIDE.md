@@ -61,7 +61,7 @@ docker-compose --version
 #### 2. 下载项目文件
 
 ```bash
-git clone https://github.com/yourusername/frp-panel.git
+git clone https://github.com/XIMOYA/HyperZoneFRP_Panel/frp-panel.git
 cd frp-panel
 ```
 
@@ -136,7 +136,7 @@ sudo yum install -y mysql-devel
 #### 2. 下载项目文件
 
 ```bash
-git clone https://github.com/yourusername/frp-panel.git
+git clone https://github.com/XIMOYA/HyperZoneFRP_Panel/frp-panel.git
 cd frp-panel
 ```
 
