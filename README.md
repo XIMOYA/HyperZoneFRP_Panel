@@ -33,8 +33,8 @@ FRP内网穿透管理面板是一个基于Flask和React的Web应用，用于管�
 
 ## 安装指南
 ---
-###详细安装指南
-请参阅[详细安装步骤](https://github.com/XIMOYA/HyperZoneFRP_Panel/blob/main/INSTALL_GUIDE.md))
+详细安装指南
+请参阅[详细安装步骤](https://github.com/XIMOYA/HyperZoneFRP_Panel/blob/main/INSTALL_GUIDE.md
 ---
 ### 系统要求
 - Python 3.8+
