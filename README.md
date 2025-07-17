@@ -17,7 +17,7 @@ FRP内网穿透管理面板是一个基于Flask和React的Web应用，用于管�
 ### 后端
 - Python 3.11
 - Flask (Web框架)
-- SQLite (数据库)
+- MySQL 5.7+ 或 8.0+ (数据库)
 - Flask-SQLAlchemy (ORM)
 - Flask-JWT-Extended (认证)
 - Flask-Mail (邮件服务)
